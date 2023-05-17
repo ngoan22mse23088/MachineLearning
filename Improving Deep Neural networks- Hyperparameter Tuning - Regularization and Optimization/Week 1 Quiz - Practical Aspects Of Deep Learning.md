@@ -107,3 +107,24 @@
 - It makes the cost function faster to optimize ---> Correct
 
 - It makes it easier to visualize the data
+
+11. In a personal experiment, an M.L. student decides to not use a test set, only train-dev sets. In this case which of the following is true?
+
+- He might be overfitting to the dev set ---> correct
+
+12. A model developed for a project is presenting high bias. One of the sponsors of the project offers some resources that might help reduce the bias. Which of the following additional resources has a better chance to help reduce the bias?
+
+- Give access to more computational resources like GPUs ---> correct
+
+13. In every case it is a good practice to use dropout when training a deep neural network because it can help to prevent overfitting. True/False?
+
+- False ---> correct
+
+14. During training a deep neural network that uses the tanh activation function, the value of the gradients is practically zero. Which of the following is most likely to help the vanishing gradient problem?
+
+- v-html="Use Xavier initialization. ---> Correct
+
+15. Which of the following actions increase the regularization of a model? (Check all that apply)
+
+- Increase the value of keep_prob in dropout. ---> correct
+- Make use of data augmentation. ---> correct
