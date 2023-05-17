@@ -59,3 +59,19 @@
     - [x] A programming framework allows you to code up deep learning algorithms with typically fewer lines of code than a lower-level language such as Python.
     - [x] Even if a project is currently open source, good governance of the project helps ensure that the it remains open even in the long term, rather than become closed or modified to benefit only one company.
     - [ ] Deep learning programming frameworks require cloud-based machines to run.
+
+11. With a relatively small set of hyperparameters, it is OK to use a grid search. True/False?
+
+    - [ ] False
+    - [x] True
+12. In a project with limited computational resources, which three of the following hyperparameters would you choose to tune? Check all that apply.
+
+    - [ ] mini-batch size
+    - [ ] β1,β2 in Adam.
+    - [ ] ϵ in Adam.
+    - [x] α
+    - [x] The β parameter of the momentum in gradient descent.
+13. If a project is open-source, it is a guarantee that it will remain open source in the long run and will never be modified to benefit only one company. True/False?.
+
+    - [x] False
+    - [ ] True
