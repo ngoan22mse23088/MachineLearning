@@ -84,3 +84,48 @@ Correct
     - W^[l] has shape (n^[l],n^[l−1])
     
     Note: See [this image](https://user-images.githubusercontent.com/14886380/29200515-7fdd1548-7e88-11e7-9d05-0878fe96bcfa.png) for general formulas.
+    
+1. What is stored in the 'cache' during forward propagation for latter use in backward propagation??
+
+    - Z^[l] 
+    
+2. Which of the following are “parameters” of a neural network? (Check all that apply.)
+
+    - W^[l] the weight matrix
+    - b^[l] the bias vector
+
+4. We can not use vectorization to calculate da^[l] in backpropagation, we must use a for loop over all the examples. True/False?
+
+    - [ ] True
+    - [x] False
+    
+4. Vectorization allows us to compute a^[l] for all the examples on a batch at the same time without using a for loop. True/False?
+
+    - [x] True
+    - [ ] False
+
+5. Suppose W[i] is the array with the weights of the i-th layer, b[i] is the vector of biases of the i-th layer, and g is the activation function used in all layers. Which of the following calculates the forward propagation for the neural network with L layers.
+
+    - for i in range(1, L+1):
+      Z[i] = W[i]*A[i-1] + b[i]
+      A[i] = g(Z[i])
+      
+6. Consider the following neural network: What are all the values of n^[0] , n^[1] n^[2] n^[3] and n^[4]
+
+    - 4, 4, 3, 2, 1
+
+7. During forward propagation, for the value of A^[l] the value is used of Z^[l] g^[l]. During backward propagation we calculate dA^[l] from Z ^[l].
+
+   - [ ] True
+   - [x] False
+
+9. Consider the following 2 hidden layers neural network:
+
+    - W^[1] will have shape (3, 4)
+    - b^[1] will have shape (3, 1)
+    - W^[2] will have shape (4, 3)
+
+10. Whereas the previous question used a specific network, in the general case what is the dimension of b^[l]
+ , the bias vector associated with layer l?.
+
+   - b^[l] has shape (n^[l], 1)
