@@ -108,3 +108,30 @@
     ```
       
     Answer: `(a - 1) * (b + c)`
+
+1. In logistic regression given x and parameters w∈R, b∈R. Which of the following best expresses what we want to tell us?
+
+    -  P(y = 1 | x) .
+
+2. Suppose that y^ =0.9 and y=1. What is the value of the "Logistic Loss"? Choose the best option.
+    - 0.105
+
+3. Suppose x is a (8, 1) array. Which of the following is a valid reshape?.
+    - x.reshape(1, 4, 3)
+
+4. Consider the following random arrays 
+   a = np.random.randn(1,3) # a.shape=(1,3)
+   b = np.random.randn(3,3) #. b.shape=(3,3)
+   c = a+b
+   What will be the shape of c?
+   - c.shape=(2,1)
+
+5. Consider the following random arrays 
+   a = np.random.randn(3,3) # a.shape=(3,3)
+   b = np.random.randn(2,1) #. b.shape=(2,1)
+   c = a*b
+   What will be the shape of c?
+   - c.shape=(3,3)
+
+6. Suppose you have n^x input features per example. If we decide to use row vectors x^j for the features and X=[x1,x2,x3, ..]
+  - (n^x,m)
