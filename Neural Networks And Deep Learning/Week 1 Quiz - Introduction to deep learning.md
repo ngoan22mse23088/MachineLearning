@@ -64,3 +64,39 @@
     - [x] Increasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
     - [ ] Decreasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
     - [ ] Decreasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
+
+1. Which of the following are some aspects in which AI has transformed business?
+
+    - Web searching and advertisenment.
+ 
+2. Which of the following are reasons that didn't allow Deep Learning to be developed during the '80s?
+
+    - Limited computational power. 
+    - Interesting applications such as image recognition require large amounts of data that were not avalible.
+
+3. Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
+    - Better algorithms can speed up the iterative process by reducing the necessary computation time.
+    - Improvements in the GPU/CPU hardware enable the discovery of better Deep Learning algorithms.
+  
+4. When building a neural network to predict housing price from features like size, the number of bedrooms, zip code, and wealth, it is necessary to come up with other features in between input and output like family size and school quality. True/False?
+    - [ ] True
+    - [x] False
+   
+5. Which one of these plots represents a ReLU activation function?
+    - Figure : 3
+
+6. Features of animals, such as weight, height, and color, are used for classification between cats, dogs, or others. This is an example of "structured" data, because they are represented as arrays in a computer. True/False?
+    - [ ] True
+    - [x] False
+
+7. Which of the following are examples of structured data? Choose all that apply.
+    - A dataset of weight, height, age, the sugar level in the blood, and arterial pressure.
+    - A dataset with zip code, income, and name of a person.
+
+9. Scales drive deep learning progress. From the given diagram, we can deduce that Large NN models are always better than traditional learning algorithms. True/False?
+    - [ ] True
+    - [x] False
+
+10. Assuming the trends described in the figure are accurate. The performance of a NN depends only on the size of the NN. True/False?
+    - [ ] True
+    - [x] False
