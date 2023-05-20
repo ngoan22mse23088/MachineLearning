@@ -88,3 +88,34 @@
     - Z[1] and A[1] are (4,m)
     
     Note: Check [here](https://user-images.githubusercontent.com/14886380/29200515-7fdd1548-7e88-11e7-9d05-0878fe96bcfa.png) for general formulas to do this.
+    
+1. Which of the following are true? (Check all that apply.)
+
+    - w_3^{[4]} is the column vector of parameters of the fourth layer and third neuron.
+    - a^{[2]} denotes the activation vector of the second layer.
+    
+2. In which of the following cases is the linear (identity) activation function most likely used?
+
+    - When working with regression problems.
+
+3. Which of the following represents the activation output of the second neuron of the third layer applied to the fourth example?
+    - a^{[3](4)}_2
+
+4. The use of the ReLU activation function is becoming more rare because the ReLU function has no derivative for c=0. True/False?
+    - [ ] True
+    - [x] False
+
+5. Consider the following code:
+    A = np.random.randn(4,3)
+    B = np.sum(A, axis = 1, keepdims = True) 
+    - (4, 1)
+
+6. Suppose you have built a neural network. You decide to initialize the weights and biases to be zero. Which of the following statements is true?
+   - Each neuron in the first hidden layer will perform the same computation. So even after multiple iterations of gradient descent, each neuron in the layer will be computing the same thing as other neurons.
+
+7. Using linear activation functions in the hidden layers of a multilayer neural network is equivalent to using a single layer. True/False?
+   - [x] True
+   - [ ] False
+
+8. Which of the following is true about the ReLU activation functions?
+   - They cause several problems in practice because they have no derivative at 0. That is why Leaky ReLU was invented.
